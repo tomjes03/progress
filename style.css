@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ nav {
+    width: auto;
+    height: 70px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-bottom: 5px solid orangered;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding-left: 60px;
+    }
+
+    nav a:hover {
+        color: orangered
+    }
+
+    .logo {
+        color: white;
+    }
+
+    span {
+        color: orangered;
+    }
+
+main {
+width: auto;
+height: 500px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background-image: url(snow.PNG) ;
+background-size: cover;
+color: #fff;
+}
+main h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+main p {
+text-align: center;
+padding: 40px;
+
+}
+section {
+    height: 70px;
+    width: auto;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+}
+section input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+section button {
+padding: 10px;
+border: none;
+border-radius: 5px;
+background-color: orangered;
+color: white;
+}
+aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: auto;
+    padding: 50px;
+    justify-content: center;
+}
+.card {
+    height: 300px;
+    width: 230px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+ 
+
+ .card-img {
+    width: 100px;
+ }
+
+ .card h3 {
+    margin: 10px;
+ }
+ .card p {
+    font-size: 20px;
+    text-align: center;
+ }
+ footer {
+    width: auto;
+    height: 60px;
+    background-color: orangered;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+ }
